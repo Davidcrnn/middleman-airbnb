@@ -14,6 +14,7 @@
 .navbar-wagon-brand img {
   height: 50px;
 }
+
 #profil-avatar {
   height: 35px;
   width: 35px;
@@ -52,8 +53,8 @@
 /* Dropdown menu */
 .navbar-wagon-dropdown-menu {
   margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
+  box-shadow: 1px 1px 4px $navbar-grey;
+  border-color: $navbar-grey;
 }
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
@@ -76,6 +77,6 @@
   top: -6px;
   background-color: white;
   transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
+  border-left: 1px solid $navbar-grey;
+  border-top: 1px solid $navbar-grey;
 }
